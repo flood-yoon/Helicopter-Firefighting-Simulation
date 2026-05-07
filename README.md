@@ -112,7 +112,7 @@
 
 ## 8. 결과 이미지
 
-[![Watch the video](Images/thumbnail.gif)](https://github.com/flood-yoon/Helicopter/raw/main/Images/run.mp4)
+[![Watch the video](Images/thumbnail.gif)](https://github.com/flood-yoon/Helicopter/raw/main/images/run.mp4)
 
 ---
 
