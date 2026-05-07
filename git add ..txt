@@ -1,0 +1,3 @@
+git add .
+git commit -m "변경 내용 설명"
+git push origin master
