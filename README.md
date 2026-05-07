@@ -112,7 +112,7 @@
 
 ## 8. 결과
 
-![Demo](./images/run.gif)
+![Demo](./images/play.gif)
 
 ---
 
