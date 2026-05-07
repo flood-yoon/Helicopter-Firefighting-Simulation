@@ -112,7 +112,7 @@
 
 ## 8. 결과
 
-<video src="./images/run.mp4" controls width="700"></video>
+<video src="images/run.mp4" controls width="700"></video>
 
 ---
 
