@@ -6,7 +6,10 @@
 
 <p align="center">
   <img src="./images/play.gif" width="900">
+  <img src="images/ingame.png" width="900"/>
+  <img src="images/ingame2.png" width="900"/>
 </p>
+
 
 ---
 
