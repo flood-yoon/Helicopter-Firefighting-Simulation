@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: fc0730e49d60a5e4babf34e128926772
+timeCreated: 1529320803
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 121151
+  packageName: Low Poly Helicopters Pack Free
+  packageVersion: 1.0
+  assetPath: Assets/Low Poly Helicopters Pack Free/Shaders/UnlitShadow.shader
+  uploadId: 872276
