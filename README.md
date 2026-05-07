@@ -112,7 +112,9 @@
 
 ## 8. 결과
 
-![Demo](./images/play.gif)
+<p align="center">
+  <img src="./images/play.gif" width="800">
+</p>
 
 ---
 
