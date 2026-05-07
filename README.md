@@ -132,12 +132,6 @@ Using Unity Particle Collision:
 ## 📌 Notes
 This project is currently being continuously expanded and improved as an ongoing prototype.
 
-# 🚁 Helicopter Firefighting Simulation (Unity)
-
-<p align="center">
-  <img src="./images/play.gif" width="900">
-</p>
-
 ---
 
 # 日本語
@@ -146,6 +140,8 @@ This project is currently being continuously expanded and improved as an ongoing
 
 <p align="center">
   <img src="./images/play.gif" width="900">
+  <img src="images/ingame.png" width="900"/>
+  <img src="images/ingame2.png" width="900"/>
 </p>
 
 ---
@@ -275,6 +271,15 @@ UnityのParticle Collision機能を利用し:
 ---
 
 ## 한국어
+
+# 🚁 Helicopter Firefighting Simulation (Unity)
+
+<p align="center">
+  <img src="./images/play.gif" width="900">
+  <img src="images/ingame.png" width="900"/>
+  <img src="images/ingame2.png" width="900"/>
+</p>
+
 
 ## 📌 프로젝트 소개
 Unity를 활용하여 개발한 3D 산불 진압 시뮬레이션 게임입니다.
