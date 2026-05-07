@@ -104,3 +104,9 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# Asset Store assets
+Assets/HQP STUDIOS/
+Assets/Low Poly Helicopters Pack Free/
+Assets/Skyboxes/
+Assets/Vefects/
