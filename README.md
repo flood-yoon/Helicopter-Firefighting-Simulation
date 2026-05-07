@@ -99,6 +99,14 @@ Using Unity Particle Collision:
 
 ---
 
+## Needed Assets (Please download in Asset Store yourselfe)
+
+Free Fire VFX URP
+Low Poly Helicopters Pack Free
+Rocks and Terrains Pack - Low Poly
+
+---
+
 ## ⌨ Controls
 
 | Key | Action |
@@ -236,6 +244,14 @@ UnityのParticle Collision機能を利用し:
 
 ---
 
+## 必要なアセット（Asset Storeから各自インストールしてください）
+
+Free Fire VFX URP
+Low Poly Helicopters Pack Free
+Rocks and Terrains Pack - Low Poly
+
+---
+
 ## ⌨ 操作方法
 
 | Key | Action |
@@ -366,6 +382,14 @@ Unity Particle Collision 기능을 활용하여:
 - Engine: Unity
 - Language: C#
 - Platform: PC
+
+---
+
+## 필요 에셋 (에셋 스토어에서 직접 다운받아 주세요)
+
+Free Fire VFX URP
+Low Poly Helicopters Pack Free
+Rocks and Terrains Pack - Low Poly
 
 ---
 
