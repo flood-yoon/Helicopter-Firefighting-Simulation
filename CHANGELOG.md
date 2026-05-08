@@ -14,7 +14,7 @@
   <img src="images/ingame ver2.png" width="900"/>
 </p>
 
-Update Notes
+## Update Notes
 
 2026-05-08
 
@@ -39,3 +39,17 @@ Fire floor system added (floor 1 / 2 / 3, max 3 floors)
 Different spread probability per floor
 
 Tail rotor strength scales with speed
+
+## Bug Fixes
+
+Fixed InvalidOperationException caused by using legacy Input System (UnityEngine.Input) instead of Input System package
+Fixed camera facing backwards instead of the helicopter's forward direction
+Fixed mouse sensitivity too high causing camera to flip vertically
+Fixed S key descent force too weak at higher rounds (around round 5)
+Fixed fire spawning on non-terrain objects including the helicopter
+Fixed water particle not affecting fire after layer change on Fire prefab
+Fixed water particle max angle exceeding 120 degrees (was going up to 180)
+Fixed fire spread count not reflected in the remaining fire count UI
+Fixed round clearing when base fire count reached 0 despite spread fires still remaining
+Fixed fire stacking beyond 2 floors with no limit
+
