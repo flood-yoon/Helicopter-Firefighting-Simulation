@@ -13,7 +13,9 @@
   <img src="./images/ver2.gif" width="900">
   <img src="images/ingame ver2.png" width="900"/>
 </p>
+
 Update Notes
+
 2026-05-08
 
 Enhanced S key descent force + motor performance increases per round
