@@ -14,42 +14,44 @@
   <img src="images/ingame ver2.png" width="900"/>
 </p>
 
-## Update Notes
+## 📋 Update Notes
 
-2026-05-08
+### 🚁 2026-05-08
 
-Enhanced S key descent force + motor performance increases per round
+#### ⚙️ Features
+| Feature | Description |
+|---|---|
+| 🔽 Descent Force | Enhanced S key descent force + motor performance increases per round |
+| 🎮 Mode System | Mode switching via `1` / `2` / `3` keys from round 3 |
+| | ▸ `1` Fire Suppression Mode — increased spray, reduced speed |
+| | ▸ `2` Normal Mode — balanced stats |
+| | ▸ `3` Speed Mode — no water spray, maximum speed |
+| 📊 Speed UI | Speed text + mode text UI added |
+| 🏁 Speed Cap | Normal mode base speed caps at round 5, displays **Max Speed** upon reaching limit |
+| 🔥 Fire Spread | From round 5: fire spreads every 30 seconds |
+| | ▸ 30% chance of nearby fire spawn per fire object |
+| | ▸ Unhit fires recover 50% of lost HP after 30 seconds |
+| 🔢 Fire Limit | Max fire count capped at **100** *(excludes spread fires)* |
+| 🌋 Terrain Filter | Fire spawn restricted to terrain mesh only via raycast layer filtering |
+| 🏢 Floor System | Fire floor system added — max **3 floors** |
+| | ▸ Floor 1 → 30% spread chance |
+| | ▸ Floor 2 → 10% spread chance |
+| | ▸ Floor 3 → no spread |
+| 🌀 Tail Rotor | Tail rotor strength now scales with helicopter speed |
 
-Mode switching via 1/2/3 keys from round 3 (Fire Suppression / Normal / Speed)
+---
 
-Speed text + mode text UI added
+## 🐛 Bug Fixes
 
-Normal mode base speed caps at round 5, displays "Max Speed" upon reaching limit
-
-From round 5: fire spreads every 30 seconds, 30% chance of nearby fire spawn, unhit fires recover 50% of lost HP
-
-Max fire count capped at 100 (excludes spread fires)
-
-Fire spawn restricted to terrain mesh only via raycast layer filtering
-
-Prevented fire from spawning on helicopter
-
-Fire floor system added (floor 1 / 2 / 3, max 3 floors)
-
-Different spread probability per floor
-
-Tail rotor strength scales with speed
-
-## Bug Fixes
-
-Fixed InvalidOperationException caused by using legacy Input System (UnityEngine.Input) instead of Input System package
-Fixed camera facing backwards instead of the helicopter's forward direction
-Fixed mouse sensitivity too high causing camera to flip vertically
-Fixed S key descent force too weak at higher rounds (around round 5)
-Fixed fire spawning on non-terrain objects including the helicopter
-Fixed water particle not affecting fire after layer change on Fire prefab
-Fixed water particle max angle exceeding 120 degrees (was going up to 180)
-Fixed fire spread count not reflected in the remaining fire count UI
-Fixed round clearing when base fire count reached 0 despite spread fires still remaining
-Fixed fire stacking beyond 2 floors with no limit
-
+| # | Fixed |
+|---|---|
+| 1 | `InvalidOperationException` caused by using legacy `UnityEngine.Input` instead of Input System package |
+| 2 | Camera facing backwards instead of the helicopter's forward direction |
+| 3 | Mouse sensitivity too high causing camera to flip vertically |
+| 4 | S key descent force too weak at higher rounds (around round 5) |
+| 5 | Fire spawning on non-terrain objects including the helicopter |
+| 6 | Water particle not affecting fire after layer change on Fire prefab |
+| 7 | Water particle max angle exceeding 120° (was going up to 180°) |
+| 8 | Fire spread count not reflected in the remaining fire count UI |
+| 9 | Round clearing when base fire count reached 0 despite spread fires still remaining |
+| 10 | Fire stacking beyond 2 floors with no limit |
