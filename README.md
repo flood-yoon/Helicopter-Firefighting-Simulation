@@ -5,7 +5,7 @@
 # 🚁 Helicopter Firefighting Simulation (Unity)
 
 <p align="center">
-  <img src="./images/play.gif" width="900">
+  <img src="./images/ver2.gif" width="900">
   <img src="./images/play2.gif" width="900">
   <img src="images/ingame.png" width="900"/>
   <img src="images/ingame2.png" width="900"/>
@@ -148,7 +148,7 @@ This project is currently being continuously expanded and improved as an ongoing
 # 🚁 Helicopter Firefighting Simulation (Unity)
 
 <p align="center">
-  <img src="./images/play.gif" width="900">
+  <img src="./images/ver2.gif" width="900">
   <img src="./images/play2.gif" width="900">
   <img src="images/ingame.png" width="900"/>
   <img src="images/ingame2.png" width="900"/>
@@ -293,7 +293,7 @@ Rocks and Terrains Pack - Low Poly
 # 🚁 Helicopter Firefighting Simulation (Unity)
 
 <p align="center">
-  <img src="./images/play.gif" width="900">
+  <img src="./images/ver2.gif" width="900">
   <img src="./images/play2.gif" width="900">
   <img src="images/ingame.png" width="900"/>
   <img src="images/ingame2.png" width="900"/>
