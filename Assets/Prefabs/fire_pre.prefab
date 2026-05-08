@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3840606178625720500}
   - component: {fileID: 4885203376300159182}
   - component: {fileID: 3054133351303114321}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Burning Smoke
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4847,7 +4847,7 @@ GameObject:
   - component: {fileID: 4230079970254221355}
   - component: {fileID: 2954888581917622819}
   - component: {fileID: 7798177519631563431}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ashes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9692,7 +9692,7 @@ GameObject:
   - component: {fileID: 7655848457419579388}
   - component: {fileID: 4692716218914481342}
   - component: {fileID: 3349879087492615108}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Flames Big
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14537,7 +14537,7 @@ GameObject:
   - component: {fileID: 237303202499302743}
   - component: {fileID: 4897115398696625530}
   - component: {fileID: 605925519362306171}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Smoke Column
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19376,7 +19376,7 @@ GameObject:
   - component: {fileID: 783795117563331803}
   - component: {fileID: 7587794677268442707}
   - component: {fileID: 1228850093695853760}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: fire_pre
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24329,6 +24329,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Fire
   firePower: 100
+  maxFirePower: 100
+  floorLevel: 1
+  parentFire: {fileID: 0}
+  childFire: {fileID: 0}
 --- !u!65 &1228850093695853760
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24361,7 +24365,7 @@ GameObject:
   - component: {fileID: 6695239694754119230}
   - component: {fileID: 7816289840867277494}
   - component: {fileID: 3220022608031633957}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29215,7 +29219,7 @@ GameObject:
   - component: {fileID: 2858751198953744310}
   - component: {fileID: 5270290576665651307}
   - component: {fileID: 8092758550037477678}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sparkles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34118,7 +34122,7 @@ GameObject:
   - component: {fileID: 2846825338008627360}
   - component: {fileID: 7363830023280112458}
   - component: {fileID: 4321793418080823040}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Flames Secondary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38963,7 +38967,7 @@ GameObject:
   - component: {fileID: 218575624513527213}
   - component: {fileID: 8957563352125845185}
   - component: {fileID: 2234215323291856327}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sparkles Handler
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43896,7 +43900,7 @@ GameObject:
   - component: {fileID: 7359129238558237054}
   - component: {fileID: 8099376531188235595}
   - component: {fileID: 1357134608454483465}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Burning Dark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48741,7 +48745,7 @@ GameObject:
   - component: {fileID: 4526991722020696129}
   - component: {fileID: 2138950623211856661}
   - component: {fileID: 9117069085353873134}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Heat Distortion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
