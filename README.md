@@ -6,9 +6,7 @@
 
 <p align="center">
   <img src="./images/ver2.gif" width="900">
-  <img src="./images/play2.gif" width="900">
-  <img src="images/ingame.png" width="900"/>
-  <img src="images/ingame2.png" width="900"/>
+  <img src="images/ingame ver2.png" width="900"/>
 </p>
 
 
@@ -149,9 +147,7 @@ This project is currently being continuously expanded and improved as an ongoing
 
 <p align="center">
   <img src="./images/ver2.gif" width="900">
-  <img src="./images/play2.gif" width="900">
-  <img src="images/ingame.png" width="900"/>
-  <img src="images/ingame2.png" width="900"/>
+  <img src="images/ingame ver2.png" width="900"/>
 </p>
 
 ---
@@ -294,9 +290,7 @@ Rocks and Terrains Pack - Low Poly
 
 <p align="center">
   <img src="./images/ver2.gif" width="900">
-  <img src="./images/play2.gif" width="900">
-  <img src="images/ingame.png" width="900"/>
-  <img src="images/ingame2.png" width="900"/>
+  <img src="images/ingame ver2.png" width="900"/>
 </p>
 
 
