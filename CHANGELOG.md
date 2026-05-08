@@ -7,3 +7,8 @@ ver.1
   <img src="./images/play2.gif" width="900">
   <img src="images/ingame.png" width="900"/>
 </p>
+
+<p align="center">
+  <img src="./images/ver2.gif" width="900">
+  <img src="images/ingame.png" width="900"/>
+</p>
