@@ -14,44 +14,64 @@
   <img src="images/ingame ver2.png" width="900"/>
 </p>
 
-## 📋 Update Notes
+---
 
-### 🚁 2026-05-08
+## 📋 Current Update Notes (Summary)
+*Key features of the latest build.*
 
-#### ⚙️ Features
 | Feature | Description |
-|---|---|
-| 🔽 Descent Force | Enhanced S key descent force + motor performance increases per round |
-| 🎮 Mode System | Mode switching via `1` / `2` / `3` keys from round 3 |
-| | ▸ `1` Fire Suppression Mode — increased spray, reduced speed |
-| | ▸ `2` Normal Mode — balanced stats |
-| | ▸ `3` Speed Mode — no water spray, maximum speed |
-| 📊 Speed UI | Speed text + mode text UI added |
-| 🏁 Speed Cap | Normal mode base speed caps at round 5, displays **Max Speed** upon reaching limit |
-| 🔥 Fire Spread | From round 5: fire spreads every 30 seconds |
-| | ▸ 30% chance of nearby fire spawn per fire object |
-| | ▸ Unhit fires recover 50% of lost HP after 30 seconds |
-| 🔢 Fire Limit | Max fire count capped at **100** *(excludes spread fires)* |
-| 🌋 Terrain Filter | Fire spawn restricted to terrain mesh only via raycast layer filtering |
-| 🏢 Floor System | Fire floor system added — max **3 floors** |
-| | ▸ Floor 1 → 30% spread chance |
-| | ▸ Floor 2 → 10% spread chance |
-| | ▸ Floor 3 → no spread |
-| 🌀 Tail Rotor | Tail rotor strength now scales with helicopter speed |
+|:--- |:--- |
+| 🔽 Descent Force | Enhanced S-key descent force + scaling motor performance per round. |
+| 🎮 Mode System | On-the-fly mode switching (`1` / `2` / `3`) starting from Round 3. |
+| 📊 UI System | Integrated real-time Speedometer, Mode indicator, and Fire counter. |
+| 🏁 Speed Cap | Base speed caps at Round 5 with a **"Max Speed"** status indicator. |
+| 🔥 Fire Spread | From Round 5: 30% chance for fires to spread to nearby areas every 30s. |
+| 🌋 Terrain Filter | Fire spawn logic restricted to terrain meshes via Raycast Layer Filtering. |
+| 🏢 Floor System | Implemented vertical stacking logic for fire objects (Max **3 floors**). |
+| 🌀 Tail Rotor | Tail rotor RPM dynamically scales with the main rotor and flight speed. |
 
 ---
 
 ## 🐛 Bug Fixes
+*Technical issues resolved during development.*
 
-| # | Fixed |
-|---|---|
-| 1 | `InvalidOperationException` caused by using legacy `UnityEngine.Input` instead of Input System package |
-| 2 | Camera facing backwards instead of the helicopter's forward direction |
-| 3 | Mouse sensitivity too high causing camera to flip vertically |
-| 4 | S key descent force too weak at higher rounds (around round 5) |
-| 5 | Fire spawning on non-terrain objects including the helicopter |
-| 6 | Water particle not affecting fire after layer change on Fire prefab |
-| 7 | Water particle max angle exceeding 120° (was going up to 180°) |
-| 8 | Fire spread count not reflected in the remaining fire count UI |
-| 9 | Round clearing when base fire count reached 0 despite spread fires still remaining |
-| 10 | Fire stacking beyond 2 floors with no limit |
+| # | Fixed Issues |
+|:---:|:--- |
+| 1 | `InvalidOperationException`: Migrated from Legacy Input to **Input System Package**. |
+| 2 | Camera Orientation: Fixed the camera facing backward upon initialization. |
+| 3 | Camera Physics: Resolved vertical flipping issues caused by excessive mouse sensitivity. |
+| 4 | Descent Physics: Overrode hovering lift to fix weak descent force in high-speed rounds. |
+| 5 | Spawn Logic: Prevented fires from spawning on the helicopter or invalid objects. |
+| 6 | Interaction: Fixed water particles ignoring fire colliders after layer updates. |
+| 7 | Particle Tuning: Clamped water spray max angle to 120° for realistic trajectory. |
+| 8 | UI Sync: Fixed remaining fire counter to include dynamically spread fires. |
+| 9 | Logic Error: Prevented premature round clearing when spread fires were still active. |
+| 10 | Floor Limit: Capped fire stacking to 3 floors to maintain performance and logic. |
+
+---
+
+## 📈 Development Journey (Growth Log)
+*A chronological log showing the evolution of the project from Day 1.*
+
+### 🌱 Day 1: Foundation & Physics Setup
+- **Asset Integration:** Selected and imported high-quality helicopter and terrain assets.
+- **Physics Implementation:** Configured `Rigidbody` and collision layers. 
+- **Collision Optimization:** Initially used a full-body `BoxCollider`, which caused unnatural interactions with mountains. Resolved this by applying **precision colliders to the landing gear**, significantly improving the "touchdown" feel.
+- **Custom VFX:** Developed a unique **Water Spray System** using Unity's Particle System to overcome the lack of suitable external assets.
+
+### 🌿 Day 2: Interaction & Core Loop
+- **Collision Logic:** Identified an issue where water particles passed through fire objects. Resolved this by switching the Particle Collision mode from **Local to World**, enabling accurate interaction.
+- **Gameplay Design:** Established the core loop where clearing fires triggers the next round.
+- **Scaling Difficulty:** Implemented initial scaling logic where fire count and HP doubled each round, alongside a 1.5x helicopter speed increase.
+
+### 🌳 Day 3: Optimization & Balancing
+- **Balance Tuning:** **[Feedback]** Playtesting revealed that the difficulty ramp was too steep. **Adjusted Fire HP scaling to 1.2x** per round to improve engagement and "fun factor."
+- **Advanced Systems:** Added the **3-Mode Flight System** and **Dynamic Fire Spread** logic.
+- **Physics Refinement:** Fixed a critical "Descent Issue" where high motor power made landing difficult by **bypassing hovering lift** when the descent key is pressed.
+- **Final Polish:** Synchronized tail rotor speed with the main rotor for better control stability and increased water particle lifetime to 3.0s to fix hit-detection issues in later rounds.
+
+---
+
+## 🚀 Future Roadmap
+- **Optimization:** Implement `Object Pooling` to handle massive fire/particle counts efficiently.
+- **Environment:** Add water refilling mechanics and wind physics affecting spray trajectory.
